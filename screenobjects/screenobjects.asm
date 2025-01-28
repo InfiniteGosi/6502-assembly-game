@@ -100,7 +100,7 @@ ScoreboardLoop:
     lda #0
     sta PF1        ; disable playfield
 
-    ; Draw 50 empty scanlines between scoreboard and and player
+    ; Draw 50 empty scanlines between the scoreboard and and player
     REPEAT 50
         sta WSYNC
     REPEND
